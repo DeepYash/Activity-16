@@ -1,28 +1,10 @@
-var spaceImg,space;
-var commetImg, commet, commetsGroup;
-var rocketImg, rocket;
-var goldcoin, goldcoinImg, goldcoinGroup;
-var gameState = "play"
 
 function preload(){
-  spaceImg = loadImage("background.png");
-  commetImg = loadImage("Commet.png");
-  rocketImg = loadImage("Rocket.png");
-  goldcoinImg = loadImage("Gold Coin.png");
+  
 }
 
 function setup() {
-  createCanvas(400,400);
-  space=createSprite(200,200,20,200);
-  space.addImage("space",spaceImg);
-  space.velocityY=4;
   
-  commetsGroup = new Group();
-  goldcoinGroup = new Group();
-
-  rocket=createSprite(200,300,50,50);
-  rocket.addImage("rocket",rocketImg);
-  rocket.scale=0.4;
 }
 
 function draw() {
